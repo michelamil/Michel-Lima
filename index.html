@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+   <head>
+      <meta charset="UTF-8">
+        <title>Home</title
+        <style type="text/css"></style>
+        <link type="text/css" rel="stylesheet"  href="estilo.css"/>
+              <link rel="stylesheet"href="servico.css"/>
+   </head>
+
+    <script>
+
+        function mudaFoto(foto)
+        {
+            document.getElementById("img-menu").src= foto;
+
+        }
+
+    </script>
+
+    <body>
+
+    <header>
+        <div>
+            <img id="img-menu" src="brasil.png."/>
+        </div>
+
+        <h1> F.T.S</h1>
+        <h3> Fábrica de Trailer Sorocaba</h3>
+        <div>
+            <img id="logo" src="logo8.jpg"alt="logotipo">
+        </div>
+        <div><h2>Home</h2></div>
+
+        <nav>
+            <ul class="menu" type="disc">
+
+                <li onmouseover="mudaFoto('home.png')"onmouseout="mudaFoto('brasil.png')"><a href="index.html">Home</a></li>
+                <li onmouseover="mudaFoto('especif.png')"onmouseout="mudaFoto('brasil.png')"><a href="especificacoes.html">Especificações</a>
+                    <ul>
+                        <li><a href="#">Chassi</a></li>
+                        <li><a href="#">Estrutura</a></li>
+                        <li><a href="#">Eixo</a></li>
+                    </ul>
+                </li>
+                <li onmouseover="mudaFoto('empresa.png')"onmouseout="mudaFoto('brasil.png')"><a href="empresa.html">Empresa</a></li>
+                <li onmouseover="mudaFoto('servicos.png')"onmouseout="mudaFoto('brasil.png')"><a href="servicos.html">Serviços</a>
+                    <ul>
+                        <li><a href="janela-servicos.html#chapeira">Chapeira</a> </li>
+                        <li><a href="janela-servicos.html#prensa">Prensa</a></li>
+                        <li><a href="janela-servicos.html#toldo">Toldo</a></li>
+                        <li><a href="janela-servicos.html#coifa">Coifas</a></li>
+                    </ul>
+                </li>
+                <li onmouseover="mudaFoto('contato.png')"onmouseout="mudaFoto('brasil.png')")><a href="contato.html">Contato</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+     <section>
+
+       <div class="botao" id="ganhe_dinheiro">
+             <img class="icone" src="como-ganhar-dinheiro.jpg" />
+       </div>
+
+       <div class="botao" id="ideias">
+             <img class="icone" src="wojsrqpmxrfhjajjzaz6.gif"/>
+       </div>
+
+       <div class="botao" id="contas">
+                        <img class="icone" src="images%20(3).jpg"/>
+       </div>
+
+
+       <div class="botao" id="trailer">
+             <img class="icone" src="giphy%20(1).gif"/>
+       </div>
+
+       <article>
+           <section id="texto_janela">
+               <iframe src="janela-home.html" name="janela2" id="frame-service">
+                   <article id="topo">
+                       <header>
+                           <h2>  Clique sobre as imagens e saiba mais.  </h2>
+                           <img src="mao.png" class="mao" alt="Mão apontando para esquerda"/>
+                       </header>
+                   </article>
+               </iframe>
+           </section>
+       </article>
+
+   </section>
+
+   <footer>
+       <section class="iframerodape">
+           <iframe src="footer.html" name="rodapehome" class="rodape" id="rodapehome"></iframe>
+       </section>
+   </footer>
+
+   </body>
+</html>
